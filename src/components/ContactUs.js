@@ -12,38 +12,61 @@ function ContactUs() {
             }, (error) => {
                 console.log(error.text);
             });
-        let magac=document.querySelector('#jina').value
-        let magac_label=document.querySelector('#name')
+        let magac=document.querySelector('#jina')
 
-        let mailing=document.querySelector('#mailing').value
-        let mail_label=document.querySelector('#emails')
+    
+        let mailing=document.querySelector('#mailing')
 
-        let phone=document.querySelector('#phone').value
-        let tel_label=document.querySelector('#tel')
+        let phone=document.querySelector('#phone')
 
-        let message=document.querySelector('#area').value
-        let message_label=document.querySelector('#message')
+
+        let meel=document.querySelector('#meel')
+
+        let message=document.querySelector('#message')
+
+        // select all the labels
+        let jina=document.querySelector('#name')
+        let mail=document.querySelector('#mail')
+        let tel=document.querySelector('#tel')
+
+        let locateLabel=document.querySelector('#locateLabel')
+        let txt=document.querySelector('#txt')
+
+        
         let empty=document.querySelector('#pa')
 
 
-
-        if(magac=='')
+        if(magac.value=='')
         {
-            magac_label.innerHTML="enter magac"
+            magac.placeholder="Enter Name *"
+            magac.focus()
           
         }
-        else if(mailing=='')
+        else if(mailing.value=='')
         {
-            mail_label.innerHTML="enter mail"
+            mailing.placeholder="enter mail *"
+            mailing.focus()
+
         }
-        else if(phone=='')
+        else if(phone.value=='')
         {
-            tel_label.innerHTML="enter phone"
+            phone.placeholder="enter phone *"
+            phone.focus()
+
         }
+        else if(meel.value=='')
+        {
+            meel.placeholder="enter phone *"
+            meel.focus()
+
+        }
+        
   
-        else if(message=='')
+        else if(message.value=='')
         {
-            message_label.innerHTML="enter message"
+            message.placeholder="enter message *"
+            message.focus()
+
         }
 //   else if(magac=='' ||mailing=='' || phone=='' ||message==''){
 // empty.innerHTML=" you left en empty field"
@@ -104,18 +127,37 @@ function ContactUs() {
                         <form onSubmit={sendEmail}>
                              
                          <div class="inputBox">
-                                <input type="text" placeholder="name"/>
-                                <input type="email" placeholder="email"/>
+
+                               
+                           
+        
+                                <input type="text" name="Name" placeholder="name" id="jina"/>
+                         <label id='name'></label>
+
+        
+                             
+                                <input type="email" name="Email" placeholder="email" id="mailing"/>
+                                <label id='mail'></label>
+                               
                          </div> 
 
                             <div class="inputBox">
-                                <input type="number" placeholder="number"/>
-                                <input type="text" placeholder="location"/>
-                            </div> 
+                                      
+                        
+                                <input type="number" name="Phone"placeholder="number" id="phone"/>
+                                <label id='tel'></label>
+                               
+                         
 
-                        <textarea placeholder="write message" name="" id="" cols="30" rows="10"/>
+                                <input type="text" name="Locate" placeholder="location" id="meel"/>
+                                <label id='locateLabel'></label>
+                            </div> 
+                              
+                         
+                        <textarea placeholder="write message" name="Message"  cols="30" rows="10" id="message"/>
 
                         <input type="submit" value="Submit" class="btn"/>
+                        <p id='pa'></p>
                               {/* <div className="cont1">
                                
                                      

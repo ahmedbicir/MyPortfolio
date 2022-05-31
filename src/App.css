@@ -6,6 +6,10 @@
     rgba(180,15,255,1)100%,
   );
 } */
+label{
+  color: red;
+  font-size: 20px;
+}
 html{
 scroll-behavior:smooth;
 }
@@ -566,6 +570,7 @@ padding: 20px;
   }
   .get span{
     color: green;
+    font-size: 20px;
   }
 /* .form{
   display: flex;
@@ -690,6 +695,9 @@ form .inputBox{
 @media only screen and (max-width:768px)
 
 {
+  .do{
+    font-size: 20px;
+  }
 
 body{
   box-sizing: border-box;

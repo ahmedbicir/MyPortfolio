@@ -42,12 +42,18 @@ function Home() {
           <div>
             <img src={logo} />
             <h1>Web Design</h1>
+            <br/>
+
+            
             <p>There are few things in design that are more subjective—or more important—than the use of color. </p>
             {/* <p>A color that can evoke one reaction in one person may evoke the opposite reaction in another, due to culture, prior association, or even just personal preference</p> */}
           </div>
           <div>
             <img src={image} />
             <h1>WEB DEVELOPMENT</h1>
+            <br/>
+
+            
             <p>I develop websites  and systems by following the development life cycle</p>
             <p>.designing,implementing,testing  deploying and maintaining</p>
 
@@ -56,6 +62,8 @@ function Home() {
             <img src={seo} />
 
             <h1>search engine optimization(SEO)</h1>
+            <br/>
+
             <p>Rank higher on search engines and drive visitors to your website from popular news sites.</p>
 
           </div>
@@ -67,18 +75,21 @@ function Home() {
             <div>
               <img src={fawzi} />
               <h1> Catosh</h1>
+              <br/>
               <p>indeed my employees praised you  for the work done it few days. thank you very mcuh  for your help.</p>
             </div>
 
             <div>
               <img src={tukke} />
               <h1>Mohamed Tuke</h1>
+              <br/>
               <p>your great guidance and kind assistance  is always remembered.</p>
 
             </div>
             <div>
               <img src={babikir} />
               <h1>babikir </h1>
+              <br/>
               <p>you will remain in our memories as one of our favourite  teacher and a great inspirer</p>
 
             </div>
