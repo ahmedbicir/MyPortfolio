@@ -18,9 +18,9 @@ function About() {
               of the development cycle for dynamic and static web projects.developing and designing user interfaces,
               testing,debugging and training staff.proven ability in optimizing  web functionalities that improve data
                retrieval and workflow efficiencies.</p>
-               <p>I am solution driven web developer ,finding solutions and determining customer</p>
-             <p> Click on the image to download it:</p>
-              <p>I’m a freelance designer & developer based in Kenya.</p>
+               <p>I am solution driven web developer ,finding solutions and determining customer requirements  </p>
+          
+              {/* <p>I’m a freelance designer & developer based in Kenya.</p> */}
 
             </div>
          </div>

@@ -37,7 +37,7 @@ function Service() {
                 <div>
               <img src={image3}/>
 
-            <h1>search engine optimization(SEO)</h1>
+            <h1>Search engine optimization(SEO)</h1>
               <br/>
 
             <p>Rank higher on search engines and drive visitors to your website from popular news sites.</p>
