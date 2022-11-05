@@ -5,7 +5,7 @@ import seo from '../image/4.png';
 import ahmed from '../image/ahmed.png';
 import fawzi from '../image/catoosh.png';
 import tukke from '../image/moha.png';
-import diini from '../image/diini.png'
+import diini from '../image/diini.png';
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 

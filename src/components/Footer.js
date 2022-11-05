@@ -47,7 +47,7 @@ function Footer() {
    
  <div><a href="https://www.facebook.com/ahmedbicir.ohirsi" target="_blank" title="follow me on facebook"><FaFacebookF/></a></div>
  <div> <a href="https://twitter.com/Ahmedbicir1" target="_blank" title="follow me on twitter"><FaTwitter/></a></div>
-<div><a href="https://www.linkedin.com/in/ahmed-bicir/" target="_blank" title="follow me on LinkedIn"><FaLinkedin/></a></div>
+<div><a href="https://www.linkedin.com/in/ahmed-mohamed-bicir/"><FaLinkedin/></a></div>
 {/* <div><ImMenu/></div> */}
 
 

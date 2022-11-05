@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import sawir from '../image/cuseyb.png'; 
 import html from '../image/html.png';
 import css from '../image/css.png';
