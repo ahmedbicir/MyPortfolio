@@ -861,7 +861,6 @@ transform: translateX(-50%);
        }
 .design div,.design_test div{
   height: 200px;
-  background-color: blue;
   /* margin-top:50px; */
 } 
 
