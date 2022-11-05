@@ -2,7 +2,7 @@ import './App.css';
 import './Fruit.css';
 import Home from './components/Home';
 import About from './components/About';
-import ContactUs from './components/ContactUs';
+import Contact from './components/Contact';
 import Service from './components/Service';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Service" element={<Service />} />
           <Route exact path="/Service" element={<Service />} />
-          <Route exact path="/ContactUs" element={<ContactUs />} />
+          <Route exact path="/Contact" element={<Contact />} />
 
 
 

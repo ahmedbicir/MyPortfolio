@@ -75,7 +75,7 @@ const barsevent=()=>{
             <li className="navLinks" onClick={NavLinkEvent}><NavLink to="/">Home</NavLink></li>
             <li className="navLinks" onClick={NavLinkEvent}><NavLink to="/About">About </NavLink></li>
             <li className="navLinks" onClick={NavLinkEvent}><NavLink to="/Service">Service</NavLink></li>
-            <li className="navLinks" onClick={NavLinkEvent}><NavLink to="/ContactUs">ContactUs</NavLink></li> 
+            <li className="navLinks" onClick={NavLinkEvent}><NavLink to="/Contact">Contact</NavLink></li> 
 {/*             <li><NavLink to="/Todolist">Todolist</NavLink></li> 
  */}
               
