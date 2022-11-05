@@ -5,7 +5,7 @@ import seo from '../image/4.png';
 import ahmed from '../image/ahmed.png';
 import fawzi from '../image/catoosh.png';
 import tukke from '../image/moha.png';
-import babikir from '../image/babikir.png'
+import diini from '../image/diini.png'
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 
@@ -76,7 +76,7 @@ function Home() {
               <img src={fawzi} />
               <h1> Catosh</h1>
               <br/>
-              <p>indeed my employees praised you  for the work done it few days. thank you very mcuh  for your help.</p>
+              <p>indeed my employees praised you  for the work done it few days. thank you very much  for your help.</p>
             </div>
 
             <div>
@@ -87,8 +87,8 @@ function Home() {
 
             </div>
             <div>
-              <img src={babikir} />
-              <h1>Babikir </h1>
+              <img src={diini} />
+              <h1> Amiin Diini </h1>
               <br/>
               <p>you will remain in our memories as one of our favourite  teacher and a great inspirer</p>
 
