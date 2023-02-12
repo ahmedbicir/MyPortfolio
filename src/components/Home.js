@@ -25,7 +25,7 @@ function Home() {
                 <div className="typewriter-text">I am Ahmed, a developer.</div>
               </div>
               <div>
-                <button className='btnn'><NavLink to="/ContactUs">Talk to me</NavLink></button>
+                <button className='btnn'><NavLink to="/Contact">Talk to me</NavLink></button>
 
               </div>
          </div>

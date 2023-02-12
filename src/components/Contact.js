@@ -10,7 +10,7 @@ function Contact() {
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
-                console.log(error.text);
+                console.log(error.texth);
             });
         let magac=document.querySelector('#jina')
 
